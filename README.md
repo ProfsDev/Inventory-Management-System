@@ -41,12 +41,13 @@ The Inventory Management System is a Java-based application utilizing the Spring
    git clone https://github.com/ProfsDev/Inventory-Management-System.git
    ```
 2. Open the project in your preferred IDE (IntelliJ IDEA, Eclipse, etc)
-3. Build the project: 
+3. Create a database instance with the name `Inventory_Management`
+4. Build the project: 
     ```
     mvn clean install
     ```
     
-4. Run the application: 
+5. Run the application: 
     ```
     mvn spring-boot:run
     ```
