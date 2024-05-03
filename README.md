@@ -86,7 +86,7 @@ You can use tools like Postman or curl to interact with the API. The base URL fo
 - **HTTP Status Code:** `201 Created`
 
 ### 2. Retrieve a Product by ID (GET Request):
-- **Endpoint:** http://localhost:8080/product/1
+- **Endpoint:** http://localhost:8080/product/{productID}
 - **Method:** `GET`
 - **Expected Response:**
     ```json
@@ -116,7 +116,7 @@ You can use tools like Postman or curl to interact with the API. The base URL fo
 - **HTTP Status Code:** `302 Found`
 
 ### 3. Update a Product (PUT Request):
-- **Endpoint:** http://localhost:8080/product/1
+- **Endpoint:** http://localhost:8080/product/{productID}
 - **Method:** `PUT`
 - **Headers:**
     - `Content-Type: application/json`
@@ -167,7 +167,7 @@ You can use tools like Postman or curl to interact with the API. The base URL fo
 - **Http Status Code:** `200 Ok`
 
 ### 4. Delete a Product (DELETE Request):
-- **Endpoint:** http://localhost:8080/product/1
+- **Endpoint:** http://localhost:8080/product/{productID}
 - **Method:** `DELETE`
 - **Expected Response:**
     ```json
